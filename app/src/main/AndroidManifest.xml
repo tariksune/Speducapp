@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tarxsoft.root.heyvans">
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconspeducapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/roundiconspeducapp"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.ca-app-pub-9821662834458077~8085408113"
+            android:value="ca-app-pub-9821662834458077~8085408113"/>
+
+        <activity android:name=".splashScreenForBegin"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".homePage"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".animalSounds"
+            android:screenOrientation="portrait" />
+        <activity android:name=".animalNamesEng"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashBeforeAnimals"
+            android:screenOrientation="portrait" />
+        <activity android:name=".animalButton"
+            android:screenOrientation="portrait" />
+        <activity android:name=".animalNamesTur"
+            android:screenOrientation="portrait" />
+        <activity android:name=".numberButtonTur"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fruitButton"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashBeforeNumbers"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashBeforeFruits"
+            android:screenOrientation="portrait" />
+        <activity android:name=".numberButtonEng"
+            android:screenOrientation="portrait" />
+        <activity android:name=".numberButton"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fruitButtonTur"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fruitButtonEng"
+            android:screenOrientation="portrait" />
+        <activity android:name=".transportationButton"
+            android:screenOrientation="portrait" />
+        <activity android:name=".transportationButtonTur"
+            android:screenOrientation="portrait" />
+        <activity android:name=".transportationButtonEng"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashBeforeTransportation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".flagButton"
+            android:screenOrientation="portrait" />
+        <activity android:name=".flagButtonEng"
+            android:screenOrientation="portrait" />
+        <activity android:name=".flagButtonTur"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sportButton"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sportButtonTur"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sportButtonEng"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashBeforeFlags"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashBeforeSports"
+            android:screenOrientation="portrait" />
+        <activity android:name=".aboutButton"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+    </manifest>

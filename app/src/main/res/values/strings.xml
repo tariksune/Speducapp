@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Speducapp</string>
+    <string name="todo">TODO</string>
+    <string name="splash">splash</string>
+    <string name="speducapp">Speducapp</string>
+    <string name="tarxsoft">taRxSoft</string>
+
+    <string name="play_store"><a href="https://www.tariksune.com/">Play Store</a></string>
+    <string name="iletisim"><a href="https://www.tariksune.com/">Contact</a></string>
+    <string name="hakkimizda"><a href="https://www.tariksune.com/">About Us</a></string>
+
+    <string name="animalbutton">ANIMALS</string>
+    <string name="sounds">SOUNDS - SESLER</string>
+    <string name="namestur">HAYVAN İSİMLERİ</string>
+    <string name="nameseng">ANIMAL NAMES</string>
+    <string name="animalnameps">NAMES</string>
+    <string name="animalsoundps">SOUNDS</string>
+
+    <string name="numberbutton">NUMBERS</string>
+    <string name="numberstur">SAYILAR</string>
+    <string name="numberseng">NUMBERS</string>
+
+    <string name="fruitbutton">FRUITS</string>
+    <string name="fruitstur">MEYVELER</string>
+    <string name="fruitseng">FRUITS</string>
+
+    <string name="transportationbutton">TRANSPORTATION</string>
+    <string name="transportationstur">ULAŞIM</string>
+    <string name="transportationseng">TRANSPORTATION</string>
+
+    <string name="flagbutton">FLAGS</string>
+    <string name="flagstur">BAYRAKLAR</string>
+    <string name="flagseng">FLAGS</string>
+
+    <string name="sportbutton">SPORTS</string>
+    <string name="sportstur">SPORLAR</string>
+    <string name="sportseng">SPORTS</string>
+
+
+    <string name="splashbeforebuttons">Volume Up</string>
+    <string name="action_settings">Settings</string>
+    <string name="v1_0">v1.0</string>
+</resources>
